@@ -3,6 +3,7 @@
 #include <fstream>
 #include <string>
 #include <time.h>
+#include "sus.h"
 
 using namespace std;
 
@@ -29,6 +30,7 @@ int main()
     do
     {
         system("cls"); //clears screen
+        sussy(); // outputs important information about runtime
         printMessage("HANGMAN", true, true);
         drawHangman(tries);
         printAvailable(guesses);
