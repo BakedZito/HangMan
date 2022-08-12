@@ -41,7 +41,7 @@ int main()
         
         char x;
         cout << ">"; cin >> x;
-        
+
         if(guesses.find(x) == string::npos)
             guesses += toupper(x);
 
